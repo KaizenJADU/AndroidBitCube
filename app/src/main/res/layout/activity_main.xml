@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FAECE1"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Bit-Cube!"
+        android:textColor="@color/verde"
+        android:textSize="60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido"
+        android:textSize="40dp"
+        android:textColor="#00CCFF"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnregis"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Registrate"
+        android:textColor="@color/white"
+        android:backgroundTint="#33CCCC"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btninise"
+        android:text="Inicia Sesion"
+        android:layout_gravity="center"
+        android:backgroundTint="#000077"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tel: 123-456-654"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo: kaizenJADU@gmail.com"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="390dp"
+        android:layout_height="285dp"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_gravity="center"
+        android:text="Redes Sociales: "
+        android:textSize="20dp" />
+
+    <ImageButton
+        android:id="@+id/btnfc"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/fc"
+        android:translationX="130dp"
+        android:translationY="5dp" />
+
+
+    <ImageButton
+        android:id="@+id/btnig"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ig"
+        android:translationX="220dp"
+        android:translationY="-36dp" />
+
+
+</LinearLayout>
