@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/backinicio"
     android:orientation="vertical"
-    tools:context=".Iniciar_sesion">
+    tools:context=".IniciaSesion">
 
 
     <TextView
@@ -35,7 +35,7 @@
         android:translationY="50dp" />
 
     <EditText
-        android:id="@+id/editcorr"
+        android:id="@+id/editcorreoo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
@@ -69,7 +69,7 @@
         tools:background="#EFD9CE" />
 
     <Button
-        android:id="@+id/btninise"
+        android:id="@+id/btninic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#90D7BD"

@@ -1,4 +1,5 @@
 package com.example.bit_cube;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -7,15 +8,15 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Iniciar_sesion extends AppCompatActivity implements View.OnClickListener{
+public class IniciaSesion extends AppCompatActivity implements View.OnClickListener{
     Button btninise;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.iniciar_sesion);
+        setContentView(R.layout.iniciasesion);
 
-        btninise = findViewById(R.id.btninise);
+        btninise = findViewById(R.id.btninic);
         btninise.setOnClickListener(this);
     }
 

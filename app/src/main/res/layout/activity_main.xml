@@ -37,34 +37,34 @@
         android:backgroundTint="#33CCCC"/>
 
     <Button
+        android:id="@+id/inicia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btninise"
-        android:text="Inicia Sesion"
-        android:layout_gravity="center"
-        android:backgroundTint="#000077"/>
+        android:text="Inicia Sesión"
+        android:layout_gravity="center"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tel: 123-456-654"
+        android:text="Tel: 55-76-05-27-13"
         android:textSize="20dp"
         android:layout_gravity="center"
         />
 
     <TextView
+        android:id="@+id/etcorreo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Correo: kaizenJADU@gmail.com"
+        android:text="kaizenJADU@gmail.com"
         android:textSize="20dp"
         android:layout_gravity="center"
         />
-
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="390dp"
-        android:layout_height="285dp"
+        android:layout_width="wrap_content"
+        android:layout_height="279dp"
+        android:layout_gravity="center"
         app:srcCompat="@drawable/img" />
 
     <TextView
@@ -79,7 +79,7 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:background="@drawable/fc"
-        android:translationX="130dp"
+        android:translationX="120dp"
         android:translationY="5dp" />
 
 
@@ -88,7 +88,7 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:background="@drawable/ig"
-        android:translationX="220dp"
+        android:translationX="200dp"
         android:translationY="-36dp" />
 
 

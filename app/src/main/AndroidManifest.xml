@@ -21,10 +21,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".IniciaSesion"></activity>
         <activity android:name=".Registro"></activity>
-        <activity android:name=".Iniciar_sesion"></activity>
-
         <activity android:name=".Principal"></activity>
+        <activity android:name=".EspMedicas"></activity>
+
     </application>
 
 </manifest>
