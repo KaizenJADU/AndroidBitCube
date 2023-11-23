@@ -18,6 +18,9 @@ public class Base extends SQLiteOpenHelper {
                 " apePatUsuario text,apeMatUsuario text, telUsuario int, correoUsuario text, contrasenaUsuario text," +
                 "RFC text, codigo int, nombreInfante text, apePatInfante text, apeMatInfante text, " +
                 "edadInfante int, sexoInfante text)");
+        basesita.execSQL("create table EspecificacionMed(idEsp int primary key," +
+                " fechadiag int,masenfer text, tratMed text, alergias text, revision text," +
+                "medicamentos text)");
     }
 
     @Override

@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Hola Daniel"
+        android:text="Hola"
         android:textSize="25dp"
         android:translationY="120dp" />
 
@@ -71,10 +71,11 @@
         android:translationY="340dp" />
 
     <TextView
+        android:id="@+id/coreo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Correo: kaizenJADU@gmail.com"
+        android:text="kaizenJADU@gmail.com"
         android:textSize="20dp"
         android:translationY="350dp" />
 

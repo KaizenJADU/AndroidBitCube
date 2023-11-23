@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#FAECE1"
+    tools:context=".Registro">
+
+    <ScrollView
+        android:id="@+id/scrol"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FAECE1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Registro"
+                android:textAlignment="center"
+                android:textSize="40sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Nombre"
+                android:textColor="#330000"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/nombre"
+                android:layout_width="279dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="P.ej,.Julia"
+                android:padding="16dp"
+                android:textColor="#1976D2"
+                android:textSize="16sp"
+                tools:background="#FAC6B5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Apellido Paterno"
+                android:textColor="#330000"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/apePat"
+                android:layout_width="282dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="P.ej,.Sanchez"
+                android:padding="16dp"
+                android:textColor="#1976D2"
+                android:textSize="16sp"
+                tools:background="#FAC6B5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Apellido Materno"
+                android:textColor="#330000"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/apeMat"
+                android:layout_width="285dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="P.ej,.Arellano"
+                android:padding="16dp"
+                android:textColor="#1976D2"
+                android:textSize="16sp"
+                tools:background="#FAC6B5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Correo"
+                android:textColor="#330000"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/correo"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="P.ej,.ejemplo@ejemplo.com"
+                android:inputType="textEmailAddress"
+                android:padding="16dp"
+                android:textColor="#1976D2"
+                android:textSize="16sp"
+                tools:background="#FAC6B5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Telefono"
+                android:textColor="#330000"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tel"
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="P.ej,.5500000000"
+                android:inputType="phone"
+                android:padding="16dp"
+                android:textColor="#1976D2"
+                android:textSize="16sp"
+                tools:background="#FAC6B5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Contraseña"
+                android:textColor="#330000"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/contra"
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="Ingresa una contrasena segura"
+                android:inputType="textPassword"
+                android:padding="16dp"
+                android:textColor="#1976D2"
+                android:textSize="16sp"
+                tools:background="#FAC6B5" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="RFC"
+                android:textColor="#330000"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/rfc"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="P.ej,.ejemplo@ejemplo.com"
+                android:padding="16dp"
+                android:textColor="#1976D2"
+                android:textSize="16sp"
+                tools:background="#FAC6B5" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="codigo"
+                android:textColor="#330000"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/cod"
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="P.ej,Inserta un codigo de 4 numeros"
+                android:inputType="numberPassword"
+                android:padding="16dp"
+                android:textColor="#1976D2"
+                android:textSize="16sp"
+                tools:background="#FAC6B5" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Datos del Infante"
+                android:textColor="#330000"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre del Infante"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/nomInf"
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="P.ej,Inserta el nombre del infante" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apellido Paterno del Infante"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/apePatInf"
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="P.ej,Inserta apellido del infante" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apellido Materno del Infante"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/apeMatInf"
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="P.ej,Inserta apellido del infante " />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edad del Infante"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/edadinf"
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="P.ej,Inserta edad del infante " />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sexo del Infante"
+                android:textSize="15dp" />
+
+            <Spinner
+                android:id="@+id/sexoinf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <Button
+                android:id="@+id/btnregis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#F5A98F"
+                android:padding="12dp"
+                android:text="Regístrate"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+
+
+
+
+

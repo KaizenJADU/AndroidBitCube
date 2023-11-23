@@ -77,4 +77,13 @@
         android:translationX="30dp"
         android:translationY="200dp" />
 
+    <Button
+        android:id="@+id/volver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#088F8F"
+        android:text="Regresar"
+        android:translationX="30dp"
+        android:translationY="200dp" />
+
 </LinearLayout>

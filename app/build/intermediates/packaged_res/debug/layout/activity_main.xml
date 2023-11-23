@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FAECE1"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Bit-Cube!"
+        android:textColor="@color/verde"
+        android:textSize="60dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido"
+        android:textSize="40dp"
+        android:textColor="#00CCFF"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnregis"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Registrate"
+        android:textColor="@color/white"
+        android:backgroundTint="#33CCCC"/>
+
+    <Button
+        android:id="@+id/inicia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inicia Sesión"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tel: 55-76-05-27-13"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/etcorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kaizenJADU@gmail.com"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="279dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:layout_gravity="center"
+        android:text="Redes Sociales: "
+        android:textSize="20dp" />
+
+    <ImageButton
+        android:id="@+id/btnfc"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/fc"
+        android:translationX="120dp"
+        android:translationY="5dp" />
+
+
+    <ImageButton
+        android:id="@+id/btnig"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ig"
+        android:translationX="200dp"
+        android:translationY="-36dp" />
+
+
+</LinearLayout>
